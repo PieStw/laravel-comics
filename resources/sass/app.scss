@@ -29,6 +29,25 @@ li > a:hover {
     background-image: url("../img/jumbotron.jpg");
     background-size: cover;
     height: 500px;
+    position: relative;
+}
+
+.current-series {
+    background-color: #0c7cec;
+    position: absolute;
+    bottom: -25px;
+    left: 300px;
+    width: 250px;
+    height: 50px;
+}
+
+.current-series h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
 }
 
 .homepage {
@@ -47,4 +66,64 @@ li > a:hover {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.info {
+    background-color: #0c7cec;
+    height: 150px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.content-info > li {
+    height: 100%;
+}
+
+.info-img {
+    height: 90px;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    height: 500px;
+}
+
+.footer-upper {
+    background-image: url("../img/footer-bg.jpg");
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: -50px;
+    right: 200px;
+}
+
+.list > li {
+    color: white;
+}
+
+.list > li > a {
+    color: #878868;
+}
+
+.footer-bottom {
+    color: white;
+    height: 100px;
 }
