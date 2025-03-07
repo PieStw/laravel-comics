@@ -1,0 +1,50 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover {
+    color: #0c7cec;
+}
+
+.jumbo {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.homepage {
+    background-color: #1c1c1c;
+}
+
+.card {
+    background-color: #1c1c1c;
+    height: 400px;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
